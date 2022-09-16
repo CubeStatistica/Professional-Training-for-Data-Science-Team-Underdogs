@@ -20,12 +20,30 @@ ds_course_dat <- read_csv("Data/Data - DS C1 Course.csv")
 
 ```
 
-## Including Plots
+## Exploratory Data Analysis (EDA)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r EDA, echo=FALSE}
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Running Python in R
+
+We will demonstrate how to run Python in RStudio
+
+
+```{r}
+library(reticulate)
+```
+
+```{python}
+# import pandas as pd
+# import numpy as np
+
+```
+
+```{python}
+for i in range (10):
+  print (i)
+```
+
