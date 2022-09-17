@@ -33,7 +33,8 @@ We will demonstrate how to run Python in RStudio
 
 
 ```{r}
-library(reticulate)
+library("tidyverse")
+library("ggplot2")
 ```
 
 ```{python}
@@ -42,8 +43,5 @@ library(reticulate)
 
 ```
 
-```{python}
-for i in range (10):
-  print (i)
-```
+
 
